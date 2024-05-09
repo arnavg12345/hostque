@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+
+#nav{
+
+    height: 15%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 40px;
+    background-color: white;
+}
+
+#navpartone{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    font-size: 50px;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#navparttwo{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    text-transform: uppercase;
+}
+
+.box{
+    height:100%;
+    width:14.28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#body{
+
+    height: 100%;
+    width: 92%;
+    background-color: yellow;
+    margin-left: 77px;
+    background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#bigtext{
+
+    height: 15%;
+    width: 70%;
+    /* background-color: yellow; */
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}    
+
+#smalltext{
+    
+    height: 10%;
+    width: 40%;
+    /* background-color: red; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 62%;
+    left: 32%;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+#button{
+
+    height: 5%;
+    width: 9%;
+    /* background-color: red; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 71%;
+    left: 47%;
+    font-size: 17px;
+    border: 2px solid white;
+  
+}
+
+#button:hover{
+
+    background-color: lightskyblue;
+    cursor: pointer;
+    transition: 4s;
+    transform: translatex(10px);
+    transform: rotate(360deg);
+}
+

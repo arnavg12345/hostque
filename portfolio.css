@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+
+    height: 160%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#nav1{ 
+
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    /* position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 40%; */
+}
+
+#body{
+
+    height: 80%;
+    width: 90%;
+    /* background-color: blue; */
+    margin-left: 80px;
+    display: flex   ;
+    justify-content: space-around;
+   
+   
+}
+
+.box{
+
+    height: 100%;
+    width: 30%;
+    /* background-color: bisque; */
+   
+}
+
+#box1{
+
+    background-image: url("https://static.wixstatic.com/media/f61af8_2ef1fc57fdd849a19df076e8fb6e036f~mv2_d_2681_2546_s_4_2.jpg/v1/fill/w_584,h_869,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f61af8_2ef1fc57fdd849a19df076e8fb6e036f~mv2_d_2681_2546_s_4_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius:30px ;
+    border: 8px lightskyblue groove;
+    
+}
+
+#box2{
+
+    background-image: url("https://static.wixstatic.com/media/f61af8_0865ef003a1740f9b703014d3b57e3fa~mv2_d_4928_3264_s_4_2.jpg/v1/fill/w_568,h_869,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f61af8_0865ef003a1740f9b703014d3b57e3fa~mv2_d_4928_3264_s_4_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius:30px ;
+    border: 8px lightskyblue groove;
+    
+}
+
+#box3{
+
+    background-image: url("https://static.wixstatic.com/media/f61af8_0ecca2bc73f444c98e8de071bb2ce81c~mv2_d_1927_1272_s_2.jpg/v1/fill/w_569,h_869,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f61af8_0ecca2bc73f444c98e8de071bb2ce81c~mv2_d_1927_1272_s_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius:30px ;
+    border: 8px lightskyblue groove;
+   
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+
+#nav2{
+
+    height: 15%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 40px;
+    background-color: white;
+}
+
+#navpartone{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    font-size: 50px;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#navparttwo{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    text-transform: uppercase;
+}
+
+.box{
+    height:100%;
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.textbox{
+
+    height: 10%;
+    width: 20%;
+    /* background-color: red; */
+}
+
+#text1{
+
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#text2{
+
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+
+#text3{
+
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.button{
+
+    height: 5%;
+    width: 9%;
+    /* background-color: red; */
+    border: 2px solid white;
+}
+
+#button1{
+
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#button2{
+
+    position: absolute;
+    top: 47%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+#button3{
+
+    position: absolute;
+    top: 47%;
+    left: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.button:hover{
+
+    background-color: rgb(0, 2, 30);
+    cursor: pointer;
+    transition: 4s;
+    transform: translatex(10px);
+    /* transform: rotate(360deg); */
+
+}
